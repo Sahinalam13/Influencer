@@ -10,6 +10,7 @@ body {
     margin: 0 auto;
 }
 
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -107,28 +108,32 @@ i {
     margin-top: 100px;
     margin-bottom: 100px;
     position: relative;
-    
+
 }
+
 .popular-parent a {
     position: absolute;
     bottom: -50px;
     right: -100px;
     font-weight: bold;
     text-decoration: none;
-    color:rgba(224, 44, 109, 0.87);
+    color: rgba(224, 44, 109, 0.87);
 }
-.popular-parent a i{
-    color:rgba(224, 44, 109, 0.87);
+
+.popular-parent a i {
+    color: rgba(224, 44, 109, 0.87);
 
 }
-.popular-parent h3{
+
+.popular-parent h3 {
     text-align: center;
 }
-.popular-title{
+
+.popular-title {
     font-size: 1.75rem;
     font-weight: 600;
     color: rgba(58, 58, 58, 1);
-    
+
 }
 
 .popular-card-container {
@@ -145,9 +150,10 @@ i {
     padding: 17px 15px;
     border-radius: 5px;
     box-shadow: 10px 20px 30px #f1f1f1
-    
+
 }
-.popular-card img{
+
+.popular-card img {
     border-radius: 5px;
 }
 
@@ -160,7 +166,7 @@ i {
 .card-price {
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.87);
-    
+
 }
 
 .card-icon img {
@@ -184,26 +190,71 @@ i {
     color: rgba(120, 120, 133, 1);
 
 }
+
 /* popular card section end */
 /* feature start */
-.feature-container{
+.feature-container {
+    width: 1110px;
+    height: 270px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1110px;
-    height: 270px;
+
     margin-bottom: 100px;
 }
-.feature-right-part{
+
+.feature-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.feature-right-part {
     width: 610px;
     height: 224px;
 }
-.feature-right-title{
+
+.feature-right-title {
     font-size: 2.375rem;
     font-weight: bold;
     color: rgba(10, 8, 38, 1);
 }
-.feature-right-part p{
+
+.feature-right-part p {
     font-weight: bold;
     color: rgba(108, 108, 108, 1);
 }
+
+/* main section end */
+/* footer star from here */
+footer {
+    background-color: rgb(10, 8, 38);
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    height: 250px;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-subtitle {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgba(217, 219, 225, 1);
+}
+
+.footer-img img {
+    max-width: 32px;
+    min-height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+
+}
+
+/* footer end */
