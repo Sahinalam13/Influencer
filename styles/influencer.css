@@ -1,2 +1,153 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* header start from here */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nav-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(58, 58, 58, 1);
+}
+
+.nav-links a,
+i {
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+    margin-right: 34px;
+
+}
+
+/* influencer section start here */
+.influencer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 131px;
+    width: 1188px;
+    height: 475px;
+}
+
+.influencer-title {
+    font-size: 3.25rem;
+    font-weight: bold;
+    color: rgba(58, 58, 58, 1);
+
+}
+
+.influencer-description {
+    font-weight: 600;
+    color: rgba(58, 58, 58, 1);
+}
+
+.btn-primary {
+    font-weight: bold;
+    color: white;
+    background-color: rgba(224, 44, 109, 1);
+    border: none;
+    border-radius: 40px;
+    padding: 10px 24px;
+    cursor: pointer;
+    margin-top: 16px;
+
+}
+
+.btn-primary i {
+    color: white;
+    margin-left: 8px;
+
+}
+
+.influencer-right {}
+
+.influencer-left {
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 475px;
+    display: flex;
+    align-items: center;
 
 
+}
+
+/* infulencer section end  */
+/* logos section */
+.logos {
+    max-width: 1110px;
+    height: 110px;
+    margin-top: 69px;
+    border-top: 1px solid rgba(192, 204, 218, 0.4);
+    border-bottom: 1px solid rgba(192, 204, 218, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+/* logos end */
+/* popular card section */
+.popular-parent {
+    width: 1047px;
+    
+}
+
+
+
+.popular-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.popular-card {
+    width: 329px;
+    height: 476px;
+    padding: 17px 15px;
+}
+
+.popular-card-title {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: rgba(24, 25, 31, 1);
+}
+
+.card-price {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.card-icon img {
+    max-width: 16px;
+    min-height: 16px;
+
+}
+
+.card-icon {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgba(94, 99, 102, 1);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-description {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgba(120, 120, 133, 1);
+
+}
